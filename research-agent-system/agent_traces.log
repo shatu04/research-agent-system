@@ -1,0 +1,122 @@
+2025-11-19 20:16:26,725 - ResearchAgent - INFO - [ResearchAgentSystem] research_started: {"query": "artificial intelligence latest trends 2024", "session_id": "demo_session_001"}
+2025-11-19 20:16:26,726 - ResearchAgent - INFO - [CoordinatorAgent] task_started: {"task": "research_planning"}
+2025-11-19 20:16:26,727 - ResearchAgent - INFO - [CoordinatorAgent] research_plan_created: {"query": "artificial intelligence latest trends 2024", "search_queries": ["artificial intelligence latest trends 2024", "artificial intelligence latest trends 2024 latest developments", "artificial intelligence latest trends 2024 expert analysis"], "num_sources": 5, "synthesis_required": true, "context": "No previous research in this session."}
+2025-11-19 20:16:26,730 - ResearchAgent - INFO - [CoordinatorAgent] task_completed: {"task": "research_planning", "duration_seconds": 0.0}
+2025-11-19 20:16:26,731 - ResearchAgent - INFO - [ResearcherAgent] task_started: {"task": "research_execution"}
+2025-11-19 20:16:26,732 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024", "num_results": 5}
+2025-11-19 20:16:26,733 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,733 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024 latest developments", "num_results": 5}
+2025-11-19 20:16:26,734 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,735 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024 expert analysis", "num_results": 5}
+2025-11-19 20:16:26,736 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,739 - ResearchAgent - INFO - [ResearcherAgent] research_completed: {"findings_count": 15}
+2025-11-19 20:16:26,740 - ResearchAgent - INFO - [ResearcherAgent] task_completed: {"task": "research_execution", "duration_seconds": 0.01}
+2025-11-19 20:16:26,741 - ResearchAgent - INFO - [SynthesizerAgent] task_started: {"task": "synthesis"}
+2025-11-19 20:16:26,742 - ResearchAgent - INFO - [SynthesisTool] synthesis_started: {"findings_count": 15}
+2025-11-19 20:16:26,742 - ResearchAgent - INFO - [SynthesizerAgent] synthesis_completed: {"output_length": 670}
+2025-11-19 20:16:26,743 - ResearchAgent - INFO - [SynthesizerAgent] task_completed: {"task": "synthesis", "duration_seconds": 0.0}
+2025-11-19 20:16:26,744 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024", "num_results": 3}
+2025-11-19 20:16:26,745 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 3}
+2025-11-19 20:16:26,746 - ResearchAgent - INFO - [ResearchAgentSystem] research_completed: {"query": "artificial intelligence latest trends 2024", "synthesis": "Based on 15 sources, the key insights are:\n1. Research Result 1 for: artificial intelligence latest trends 2024: This source provides information about artificial intelligence latest trends 2024. Key findings include relevant data points and analysis.\n2. Research Result 2 for: artificial intelligence latest trends 2024: This source provides information about artificial intelligence latest trends 2024. Key findings include relevant data points and analysis.\n3. Research Result 3 for: artificial intelligence latest trends 2024: This source provides information about artificial intelligence latest trends 2024. Key findings include relevant data points and analysis.\n", "sources_count": 15, "session_id": "demo_session_001"}
+2025-11-19 20:16:26,750 - ResearchAgent - INFO - [ResearchAgentSystem] research_started: {"query": "climate change mitigation strategies", "session_id": "demo_session_001"}
+2025-11-19 20:16:26,750 - ResearchAgent - INFO - [CoordinatorAgent] task_started: {"task": "research_planning"}
+2025-11-19 20:16:26,751 - ResearchAgent - INFO - [CoordinatorAgent] research_plan_created: {"query": "climate change mitigation strategies", "search_queries": ["climate change mitigation strategies", "climate change mitigation strategies latest developments", "climate change mitigation strategies expert analysis"], "num_sources": 5, "synthesis_required": true, "context": "Previous research in this session (1 queries):\n1. artificial intelligence latest trends 2024: Based on 15 sources, the key insights are:\n1. Research Result 1 for: artificial intelligence latest ...\n"}
+2025-11-19 20:16:26,759 - ResearchAgent - INFO - [CoordinatorAgent] task_completed: {"task": "research_planning", "duration_seconds": 0.01}
+2025-11-19 20:16:26,759 - ResearchAgent - INFO - [ResearcherAgent] task_started: {"task": "research_execution"}
+2025-11-19 20:16:26,760 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies", "num_results": 5}
+2025-11-19 20:16:26,760 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,761 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies latest developments", "num_results": 5}
+2025-11-19 20:16:26,762 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,766 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies expert analysis", "num_results": 5}
+2025-11-19 20:16:26,769 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,771 - ResearchAgent - INFO - [ResearcherAgent] research_completed: {"findings_count": 15}
+2025-11-19 20:16:26,771 - ResearchAgent - INFO - [ResearcherAgent] task_completed: {"task": "research_execution", "duration_seconds": 0.01}
+2025-11-19 20:16:26,772 - ResearchAgent - INFO - [SynthesizerAgent] task_started: {"task": "synthesis"}
+2025-11-19 20:16:26,772 - ResearchAgent - INFO - [SynthesisTool] synthesis_started: {"findings_count": 15}
+2025-11-19 20:16:26,773 - ResearchAgent - INFO - [SynthesizerAgent] synthesis_completed: {"output_length": 634}
+2025-11-19 20:16:26,774 - ResearchAgent - INFO - [SynthesizerAgent] task_completed: {"task": "synthesis", "duration_seconds": 0.0}
+2025-11-19 20:16:26,775 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies", "num_results": 3}
+2025-11-19 20:16:26,777 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 3}
+2025-11-19 20:16:26,778 - ResearchAgent - INFO - [ResearchAgentSystem] research_completed: {"query": "climate change mitigation strategies", "synthesis": "Based on 15 sources, the key insights are:\n1. Research Result 1 for: climate change mitigation strategies: This source provides information about climate change mitigation strategies. Key findings include relevant data points and analysis.\n2. Research Result 2 for: climate change mitigation strategies: This source provides information about climate change mitigation strategies. Key findings include relevant data points and analysis.\n3. Research Result 3 for: climate change mitigation strategies: This source provides information about climate change mitigation strategies. Key findings include relevant data points and analysis.\n", "sources_count": 15, "session_id": "demo_session_001"}
+2025-11-19 20:16:26,783 - ResearchAgent - INFO - [ResearchAgentSystem] research_started: {"query": "quantum computing applications", "session_id": "demo_session_001"}
+2025-11-19 20:16:26,784 - ResearchAgent - INFO - [CoordinatorAgent] task_started: {"task": "research_planning"}
+2025-11-19 20:16:26,784 - ResearchAgent - INFO - [CoordinatorAgent] research_plan_created: {"query": "quantum computing applications", "search_queries": ["quantum computing applications", "quantum computing applications latest developments", "quantum computing applications expert analysis"], "num_sources": 5, "synthesis_required": true, "context": "Previous research in this session (2 queries):\n1. artificial intelligence latest trends 2024: Based on 15 sources, the key insights are:\n1. Research Result 1 for: artificial intelligence latest ...\n2. climate change mitigation strategies: Based on 15 sources, the key insights are:\n1. Research Result 1 for: climate change mitigation strat...\n"}
+2025-11-19 20:16:26,786 - ResearchAgent - INFO - [CoordinatorAgent] task_completed: {"task": "research_planning", "duration_seconds": 0.0}
+2025-11-19 20:16:26,791 - ResearchAgent - INFO - [ResearcherAgent] task_started: {"task": "research_execution"}
+2025-11-19 20:16:26,792 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications", "num_results": 5}
+2025-11-19 20:16:26,794 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,795 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications latest developments", "num_results": 5}
+2025-11-19 20:16:26,796 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,799 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications expert analysis", "num_results": 5}
+2025-11-19 20:16:26,800 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:16:26,801 - ResearchAgent - INFO - [ResearcherAgent] research_completed: {"findings_count": 15}
+2025-11-19 20:16:26,802 - ResearchAgent - INFO - [ResearcherAgent] task_completed: {"task": "research_execution", "duration_seconds": 0.01}
+2025-11-19 20:16:26,804 - ResearchAgent - INFO - [SynthesizerAgent] task_started: {"task": "synthesis"}
+2025-11-19 20:16:26,804 - ResearchAgent - INFO - [SynthesisTool] synthesis_started: {"findings_count": 15}
+2025-11-19 20:16:26,805 - ResearchAgent - INFO - [SynthesizerAgent] synthesis_completed: {"output_length": 598}
+2025-11-19 20:16:26,805 - ResearchAgent - INFO - [SynthesizerAgent] task_completed: {"task": "synthesis", "duration_seconds": 0.0}
+2025-11-19 20:16:26,806 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications", "num_results": 3}
+2025-11-19 20:16:26,807 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 3}
+2025-11-19 20:16:26,808 - ResearchAgent - INFO - [ResearchAgentSystem] research_completed: {"query": "quantum computing applications", "synthesis": "Based on 15 sources, the key insights are:\n1. Research Result 1 for: quantum computing applications: This source provides information about quantum computing applications. Key findings include relevant data points and analysis.\n2. Research Result 2 for: quantum computing applications: This source provides information about quantum computing applications. Key findings include relevant data points and analysis.\n3. Research Result 3 for: quantum computing applications: This source provides information about quantum computing applications. Key findings include relevant data points and analysis.\n", "sources_count": 15, "session_id": "demo_session_001"}
+2025-11-19 20:16:26,818 - ResearchAgent - INFO - [AgentEvaluator] evaluation_completed: {"session_id": "demo_session_001", "total_queries": 3, "total_tasks_completed": 3, "total_time_seconds": 0, "avg_time_per_query": 0.0, "memory_entries": 3}
+2025-11-19 20:36:01,309 - ResearchAgent - INFO - [ResearchAgentSystem] research_started: {"query": "artificial intelligence latest trends 2024", "session_id": "demo_session_001"}
+2025-11-19 20:36:01,310 - ResearchAgent - INFO - [CoordinatorAgent] task_started: {"task": "research_planning"}
+2025-11-19 20:36:01,311 - ResearchAgent - INFO - [CoordinatorAgent] research_plan_created: {"query": "artificial intelligence latest trends 2024", "search_queries": ["artificial intelligence latest trends 2024", "artificial intelligence latest trends 2024 latest developments", "artificial intelligence latest trends 2024 expert analysis"], "num_sources": 5, "synthesis_required": true, "context": "No previous research in this session."}
+2025-11-19 20:36:01,312 - ResearchAgent - INFO - [CoordinatorAgent] task_completed: {"task": "research_planning", "duration_seconds": 0.0}
+2025-11-19 20:36:01,312 - ResearchAgent - INFO - [ResearcherAgent] task_started: {"task": "research_execution"}
+2025-11-19 20:36:01,313 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024", "num_results": 5}
+2025-11-19 20:36:01,313 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,314 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024 latest developments", "num_results": 5}
+2025-11-19 20:36:01,315 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,316 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024 expert analysis", "num_results": 5}
+2025-11-19 20:36:01,317 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,318 - ResearchAgent - INFO - [ResearcherAgent] research_completed: {"findings_count": 15}
+2025-11-19 20:36:01,319 - ResearchAgent - INFO - [ResearcherAgent] task_completed: {"task": "research_execution", "duration_seconds": 0.01}
+2025-11-19 20:36:01,319 - ResearchAgent - INFO - [SynthesizerAgent] task_started: {"task": "synthesis"}
+2025-11-19 20:36:01,320 - ResearchAgent - INFO - [SynthesisTool] synthesis_started: {"findings_count": 15}
+2025-11-19 20:36:01,321 - ResearchAgent - INFO - [SynthesizerAgent] synthesis_completed: {"output_length": 670}
+2025-11-19 20:36:01,322 - ResearchAgent - INFO - [SynthesizerAgent] task_completed: {"task": "synthesis", "duration_seconds": 0.0}
+2025-11-19 20:36:01,323 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "artificial intelligence latest trends 2024", "num_results": 3}
+2025-11-19 20:36:01,324 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 3}
+2025-11-19 20:36:01,325 - ResearchAgent - INFO - [ResearchAgentSystem] research_completed: {"query": "artificial intelligence latest trends 2024", "synthesis": "Based on 15 sources, the key insights are:\n1. Research Result 1 for: artificial intelligence latest trends 2024: This source provides information about artificial intelligence latest trends 2024. Key findings include relevant data points and analysis.\n2. Research Result 2 for: artificial intelligence latest trends 2024: This source provides information about artificial intelligence latest trends 2024. Key findings include relevant data points and analysis.\n3. Research Result 3 for: artificial intelligence latest trends 2024: This source provides information about artificial intelligence latest trends 2024. Key findings include relevant data points and analysis.\n", "sources_count": 15, "session_id": "demo_session_001"}
+2025-11-19 20:36:01,329 - ResearchAgent - INFO - [ResearchAgentSystem] research_started: {"query": "climate change mitigation strategies", "session_id": "demo_session_001"}
+2025-11-19 20:36:01,341 - ResearchAgent - INFO - [CoordinatorAgent] task_started: {"task": "research_planning"}
+2025-11-19 20:36:01,343 - ResearchAgent - INFO - [CoordinatorAgent] research_plan_created: {"query": "climate change mitigation strategies", "search_queries": ["climate change mitigation strategies", "climate change mitigation strategies latest developments", "climate change mitigation strategies expert analysis"], "num_sources": 5, "synthesis_required": true, "context": "Previous research in this session (1 queries):\n1. artificial intelligence latest trends 2024: Based on 15 sources, the key insights are:\n1. Research Result 1 for: artificial intelligence latest ...\n"}
+2025-11-19 20:36:01,351 - ResearchAgent - INFO - [CoordinatorAgent] task_completed: {"task": "research_planning", "duration_seconds": 0.01}
+2025-11-19 20:36:01,353 - ResearchAgent - INFO - [ResearcherAgent] task_started: {"task": "research_execution"}
+2025-11-19 20:36:01,354 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies", "num_results": 5}
+2025-11-19 20:36:01,355 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,357 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies latest developments", "num_results": 5}
+2025-11-19 20:36:01,362 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,369 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies expert analysis", "num_results": 5}
+2025-11-19 20:36:01,371 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,372 - ResearchAgent - INFO - [ResearcherAgent] research_completed: {"findings_count": 15}
+2025-11-19 20:36:01,374 - ResearchAgent - INFO - [ResearcherAgent] task_completed: {"task": "research_execution", "duration_seconds": 0.02}
+2025-11-19 20:36:01,375 - ResearchAgent - INFO - [SynthesizerAgent] task_started: {"task": "synthesis"}
+2025-11-19 20:36:01,378 - ResearchAgent - INFO - [SynthesisTool] synthesis_started: {"findings_count": 15}
+2025-11-19 20:36:01,379 - ResearchAgent - INFO - [SynthesizerAgent] synthesis_completed: {"output_length": 634}
+2025-11-19 20:36:01,386 - ResearchAgent - INFO - [SynthesizerAgent] task_completed: {"task": "synthesis", "duration_seconds": 0.01}
+2025-11-19 20:36:01,392 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "climate change mitigation strategies", "num_results": 3}
+2025-11-19 20:36:01,394 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 3}
+2025-11-19 20:36:01,405 - ResearchAgent - INFO - [ResearchAgentSystem] research_completed: {"query": "climate change mitigation strategies", "synthesis": "Based on 15 sources, the key insights are:\n1. Research Result 1 for: climate change mitigation strategies: This source provides information about climate change mitigation strategies. Key findings include relevant data points and analysis.\n2. Research Result 2 for: climate change mitigation strategies: This source provides information about climate change mitigation strategies. Key findings include relevant data points and analysis.\n3. Research Result 3 for: climate change mitigation strategies: This source provides information about climate change mitigation strategies. Key findings include relevant data points and analysis.\n", "sources_count": 15, "session_id": "demo_session_001"}
+2025-11-19 20:36:01,409 - ResearchAgent - INFO - [ResearchAgentSystem] research_started: {"query": "quantum computing applications", "session_id": "demo_session_001"}
+2025-11-19 20:36:01,410 - ResearchAgent - INFO - [CoordinatorAgent] task_started: {"task": "research_planning"}
+2025-11-19 20:36:01,414 - ResearchAgent - INFO - [CoordinatorAgent] research_plan_created: {"query": "quantum computing applications", "search_queries": ["quantum computing applications", "quantum computing applications latest developments", "quantum computing applications expert analysis"], "num_sources": 5, "synthesis_required": true, "context": "Previous research in this session (2 queries):\n1. artificial intelligence latest trends 2024: Based on 15 sources, the key insights are:\n1. Research Result 1 for: artificial intelligence latest ...\n2. climate change mitigation strategies: Based on 15 sources, the key insights are:\n1. Research Result 1 for: climate change mitigation strat...\n"}
+2025-11-19 20:36:01,421 - ResearchAgent - INFO - [CoordinatorAgent] task_completed: {"task": "research_planning", "duration_seconds": 0.01}
+2025-11-19 20:36:01,423 - ResearchAgent - INFO - [ResearcherAgent] task_started: {"task": "research_execution"}
+2025-11-19 20:36:01,426 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications", "num_results": 5}
+2025-11-19 20:36:01,455 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,505 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications latest developments", "num_results": 5}
+2025-11-19 20:36:01,515 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,544 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications expert analysis", "num_results": 5}
+2025-11-19 20:36:01,568 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 5}
+2025-11-19 20:36:01,569 - ResearchAgent - INFO - [ResearcherAgent] research_completed: {"findings_count": 15}
+2025-11-19 20:36:01,571 - ResearchAgent - INFO - [ResearcherAgent] task_completed: {"task": "research_execution", "duration_seconds": 0.15}
+2025-11-19 20:36:01,574 - ResearchAgent - INFO - [SynthesizerAgent] task_started: {"task": "synthesis"}
+2025-11-19 20:36:01,576 - ResearchAgent - INFO - [SynthesisTool] synthesis_started: {"findings_count": 15}
+2025-11-19 20:36:01,578 - ResearchAgent - INFO - [SynthesizerAgent] synthesis_completed: {"output_length": 598}
+2025-11-19 20:36:01,610 - ResearchAgent - INFO - [SynthesizerAgent] task_completed: {"task": "synthesis", "duration_seconds": 0.04}
+2025-11-19 20:36:01,619 - ResearchAgent - INFO - [WebSearchTool] search_initiated: {"query": "quantum computing applications", "num_results": 3}
+2025-11-19 20:36:01,620 - ResearchAgent - INFO - [WebSearchTool] search_completed: {"results_count": 3}
+2025-11-19 20:36:01,621 - ResearchAgent - INFO - [ResearchAgentSystem] research_completed: {"query": "quantum computing applications", "synthesis": "Based on 15 sources, the key insights are:\n1. Research Result 1 for: quantum computing applications: This source provides information about quantum computing applications. Key findings include relevant data points and analysis.\n2. Research Result 2 for: quantum computing applications: This source provides information about quantum computing applications. Key findings include relevant data points and analysis.\n3. Research Result 3 for: quantum computing applications: This source provides information about quantum computing applications. Key findings include relevant data points and analysis.\n", "sources_count": 15, "session_id": "demo_session_001"}
+2025-11-19 20:36:01,636 - ResearchAgent - INFO - [AgentEvaluator] evaluation_completed: {"session_id": "demo_session_001", "total_queries": 3, "total_tasks_completed": 3, "total_time_seconds": 0, "avg_time_per_query": 0.0, "memory_entries": 3}
